@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+mlruns/
+data/
+*.parquet
+*.csv
+models/artifacts/
+.pytest_cache/
+.ruff_cache/
+dist/
