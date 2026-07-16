@@ -3,10 +3,17 @@ name = "flagman"
 version = "0.1.0"
 description = "Real-time payment fraud detection for UK faster payments"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.1",
+]
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.8"]
+experiments = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.0",
+    "pandas>=3.0.3",
+]
 
 [build-system]
 requires = ["uv_build>=0.11,<0.12"]
